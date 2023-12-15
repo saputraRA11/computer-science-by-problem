@@ -1,0 +1,13 @@
+#include <string>
+#include <cstdio>
+#include <iostream>
+
+int main() {
+    string kata = "";
+    string output = "";
+    while(scanf("%s",kata) != EOF) {
+        output.append(kata + "\n");
+    }
+    
+    cout << output;
+}
